@@ -1,4 +1,4 @@
-# Nouveau titre
+# Nouveau titre: Joli titre
 ## Plan de travail
 
 todo:
