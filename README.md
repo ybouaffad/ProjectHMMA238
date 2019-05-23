@@ -22,3 +22,10 @@ Les symétries utilisées pour passer de l'itération 0 à l'itération 2 sont i
 
 Après l'itération 7 nous remarquons la stabilité des configurations pour chaque itération.
 Les régles du jeu nous confirme que le jeu est stable, chaque cellule est en état d'équilibre.
+
+
+## Exercice 2: Régression logistique
+
+
+Ici nous nous intéressons à la base de données MNIST qui représente des chiffres numérisés,
+dont on connaît une "étiquette" associé parmi les chiffres (0,1,...,9).
