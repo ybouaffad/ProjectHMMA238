@@ -52,7 +52,7 @@ def iteration_jeu_jit(Z):
     
     """
     forme = len(Z), len(Z[0])
-    N = calcul_nb_voisins_fast(Z)
+    N = calcul_nb_voisins_jit(Z)
     for x in range(1, forme[0] - 1):
         for y in range(1,forme[1]-1):
             if (Z[x][y] == 1) and (N[x][y] < 2 or N[x][y] > 3):
