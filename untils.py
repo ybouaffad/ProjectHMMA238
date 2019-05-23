@@ -34,7 +34,7 @@ from numba import jit
 
 
 @jit(nopython=True)
-def calcul_nb_voisins_fit(Z):
+def calcul_nb_voisins_jit(Z):
     forme = len(Z), len(Z[0])
     N = [[0, ] * (forme[0]) for i in range(forme[1])]
     for x in range(1, forme[0] - 1):
@@ -46,7 +46,7 @@ def calcul_nb_voisins_fit(Z):
 
 
 @jit(nopython=True)
-def iteration_jeu_fit(Z):
+def iteration_jeu_jit(Z):
     """
   Cette fonction est optimisé par jit et calcul un tour du jeu de la vie
     
