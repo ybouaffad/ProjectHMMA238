@@ -38,6 +38,8 @@ Le protocole expérimentale proposer pour comparer les temps de calculs avec ou 
 
 Nous faisons la différence des temps de calculs avec ou sans cette apport pour les fonctions **iteration_jeu** et **calcul_nb_voisins**
 
+Nous remarquons un gain de temps seulement pour la fonction **iteration_jeu**.
+
 #### 8)
 
 Dans un premier temps nous allons importer le célèbre jeux de données **MNIST*
