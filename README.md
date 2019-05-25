@@ -43,6 +43,9 @@ Nous faisons la différence des temps de calculs avec ou sans cette apport pour 
 Dans un premier temps nous allons importer le célèbre jeux de données **MNIST*
 On crée un widget dont le curseur permet de contrôler les itérations (par exemple de 0 à 30) du jeu de la vie quand on initialise avec la matrice *Z_huge*.
 
+Avant de créer le widget on crée la fonction **itération** qui prend comme paramètre **nb_iter**.
+Cette fonction affiche chaque itération grâce à une boucle **for**.
+
 On importe depuis *ipywidgets* les commandes : *interact*,** fixed**.
 On définit comme paramètre le nombre d'itérations variant de 1 à 30.
 
@@ -78,6 +81,14 @@ Nous utilisons la fonction **LogisticRegression** pour apprendre un modèle de c
 
 
 #### 4)
+
+On crée une nouvelle fois un *widget*.
+Ce widget investigue l'impact de la transformation de l'image par une opération.
+
+
+Avant de créer le widget il a fallu créer la fonction **fig_digit**.
+On prend x l'image associé au chiffre 7 de la question précédente, et le widget fera varier \upalpha de 0.1 à 100 avec un pas de 0.1.
+
 
 
 #### 5)
