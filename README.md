@@ -15,6 +15,7 @@ output:
 
 #### 1)
 
+La sortie obtenue N=calcul_nb_voisins(Z) est une liste de liste qui donne pour chaque cellule du jeu de la vie, le nombre de voisins vivants. Nous avons importé la fonction subplot et imshow de matplotlib. subplot permet d'afficher plusieurs graphes en même temps. imshow permet de cartographier le jeu.
 
 #### 2)
 
@@ -25,6 +26,15 @@ Après l'itération 7 nous remarquons la stabilité des configurations pour chaq
 Les régles du jeu nous confirme que le jeu est stable, chaque cellule est en état d'équilibre.
 
 
+#### Widget) 
+
+Dans un premier temps nous allons importer le jeux de donnée MNIST
+On crée un widget dont le curseur permet de contrôler les itérations (par exemple de 0 à 30) du jeu de la vie quand on initialise avec la matrice *Z_huge*.
+
+On importe depuis *ipywidgets* les commandes : *interact*,** fixed**.
+On définit comme paramètre le nombre d'itérations variant de 1 à 30.
+
+Nous n'avons pas diminué la taille des matrices, cela n'était pas nécessaire.
 
 
 ### Implémentation avec numba
@@ -66,9 +76,12 @@ Nous testons avec les chiffres du tableaux Xbis[0] qui est un 3 et Xbis[7141] qu
 Nous utilisons la fonction "LogisticRegression" pour apprendre un modèle de classification sur l'intégralité des données (on choisira un cas sans ordonnée à l'origine, i.e, l'option "**it_intercept=FALSE**)
 
 
-#### 4)
+#### 7)
 
+On propose une analyse en composante principale pour visualiser la base de donnée en dimension 2 en ajustant les couleurs selon la classe des données ( doré et noir ).
 
+Après avoir chargé PCA depuis *sklean.decomposition*
+On affiche les résultats de cette ACP avec la commande *plt.show*
 
 
 
