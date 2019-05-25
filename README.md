@@ -1,5 +1,5 @@
 ---
-title:  "Description succintce Projet Python M1 MIND HMMA238"
+title:  "Description succincte Projet Python M1 MIND HMMA238"
 author: "Yani Bouaffad et Samuel Kaci"
 date: "26/05/2019"
 output:
@@ -15,7 +15,8 @@ output:
 
 #### 4)
 
-La sortie obtenue N=calcul_nb_voisins(Z) est une liste de liste qui donne pour chaque cellule du jeu de la vie, le nombre de voisins vivants. Nous avons importé la fonction subplot et imshow de matplotlib. subplot permet d'afficher plusieurs graphes en même temps. imshow permet de cartographier le jeu.
+La sortie obtenue N=calcul_nb_voisins(Z) est une liste de liste qui donne pour chaque cellule du jeu de la vie, le nombre de voisins vivants. Nous avons importé la fonction **subplot** et **imshow** de **matplotlib**. **subplot** permet d'afficher plusieurs graphes en même temps. 
+**imshow** permet de cartographier le jeu.
 
 #### 5)
 
@@ -33,7 +34,7 @@ Les règles du jeu nous confirme que le jeu est stable, chaque cellule est en é
 #### 7)
 
 Nous reprenons la section précédente avec des fonctions utlisant numba et la compilation "jit".
-Le protocole exprérimentale proposer pour comparer les temps de calculs avec ou sans l'apport de la fonction "jit" est disponible sur le dossier Jupyter.
+Le protocole expérimentale proposer pour comparer les temps de calculs avec ou sans l'apport de la fonction **jit** est disponible sur le dossier Jupyter.
 
 Nous faisons la différence des temps de calculs avec ou sans cette apport pour les fonctions **iteration_jeu** et **calcul_nb_voisins**
 
@@ -68,7 +69,7 @@ Nous visualisons avec **imshow** un exemple de chaque classe d'image en utilisan
 
 **X_bis** contient tout les 3 et 7 de MNIST que nous avons sélectionnés.
 
-Nous testons avec les chiffres du tableaux Xbis[0] qui est un 3 et Xbis[7141] qui est un 7.
+Nous testons avec les chiffres du tableaux **X_bis[0]** qui est un 3 et **X_bis[7141]** qui est un 7.
 
 
 #### 3)
@@ -85,7 +86,7 @@ Nous utilisons la fonction **LogisticRegression** pour apprendre un modèle de c
 
 #### 7)
 
-On propose une analyse en composante principale pour visualiser la base de donnée en dimension 2 en ajustant les couleurs selon la classe des données ( doré et noir ).
+On propose une analyse en composante principale pour visualiser la base de données en dimension 2 en ajustant les couleurs selon la classe des données ( doré et noir ).
 
 Après avoir chargé PCA depuis *sklean.decomposition*
 On affiche les résultats de cette ACP avec la commande *plt.show*
