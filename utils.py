@@ -64,13 +64,13 @@ def iteration_jeu_jit(Z):
 
 def fig_digit(x, w, alpha):
     """
-Cette fonction prend en paramètre deux vecteur et un réel.
-	Le premier vecteur correspond à l'image que nous voulons traiter 
-	Le second vecteur est celui des coefficients de la régression
-	Et le réel correspond aux alpha donnée dans le Tp
-Cette fonction nous permetras de comparer l'image initialle et l'image modifiée.
+Cette fonction prend en paramètre deux vecteurs et un réel.
+	Le premier vecteur correspond à l'image que nous voulons traiter.
+	Le second vecteur est celui des coefficients de la régression.
+	Le réel correspond aux alpha donné dans le TP.
+Cette fonction nous permettra de comparer l'image initiale et l'image modifiée.
 
-Nous  aurrons a gauche l'image initiale et à droite l'image modifié?.
+Nous aurons à gauche l'image initiale et à droite l'image modifié.
     """
     plt.subplot(1,2,1)
     plt.imshow(x.reshape(28,28))
